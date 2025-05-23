@@ -1,6 +1,6 @@
 1. Crear entorno virtual
 conda create -n NAME_env
-conda create -n 'EEFF_EY_Test' python=3.11
+conda create -n 'Test' python=3.11
 
 2. Acceder al venv
 conda activate NAME_env
@@ -20,9 +20,6 @@ pyinstaller -F -w main.py
 
 6. Cerrar entorno virtual
 conda deactivate
-
-
-#ENTORNO VIRTUAL CREADO "EEFF"
 
 
 Listar entornos virtuales creados:  conda info --envs
