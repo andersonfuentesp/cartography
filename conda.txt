@@ -1,0 +1,33 @@
+1. Crear entorno virtual
+conda create -n NAME_env
+conda create -n 'EEFF_EY_Test' python=3.11
+
+2. Acceder al venv
+conda activate NAME_env
+
+2. Installar pip
+conda install pip
+
+3. installar librerias con pip
+pip install pandas==1.5.3
+pip install xlwings==0.24.2
+
+4. instalar pyinstaller
+pip install pyinstaller
+
+5. Compilar
+pyinstaller -F -w main.py
+
+6. Cerrar entorno virtual
+conda deactivate
+
+
+#ENTORNO VIRTUAL CREADO "EEFF"
+
+
+Listar entornos virtuales creados:  conda info --envs
+
+Para problemas:
+
+-conda init cmd.exe
+-conda init bash
